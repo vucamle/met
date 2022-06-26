@@ -1,0 +1,63 @@
+.card
+{
+    width: 630px;
+    height: 400px;
+    margin: 0 10px;
+    padding: 9px;
+    background-color: antiquewhite;
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px white;
+
+}
+img{
+    width: 560px;
+
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.ds-logo {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+.ds-logo span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 12px;
+}
+.ds-numbervalulist strong {
+    display: block;
+    color: #F26464;
+}
+.ds-numbervalulist li {
+    margin-right: 30px;
+}
+.ds-numbervalulist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
